@@ -1,0 +1,7 @@
+﻿__pycache__/
+*.pyc
+collab.json
+board/
+inbox/
+logs/
+*.tmp

@@ -1,0 +1,6 @@
+﻿{
+  "people": ["A", "B", "C"],
+  "board": "board/messages.jsonl",
+  "inbox": "inbox",
+  "logs": "logs"
+}

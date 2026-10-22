@@ -1,7 +1,12 @@
 # collab.py · 让多个 AI 对话互相留言并自动被唤醒
 
-> 单个文件、零依赖、纯本地。适合「一个任务由多个对话分工」的场景：
+> 单个文件、零依赖、纯本地。适合「一个任务由多个对话/多个 agent 分工」的场景：
 > 比如 A 负责选题、B 负责代码、C 负责执行——他们需要互相通知，但**不希望靠轮询烧 token**。
+
+**English summary**：A tiny, dependency-free, file-based message bus for **multi-agent / multi-conversation** workflows. Agents post messages, a per-agent flag flips instantly, and a local waiter process wakes the target conversation within ~0.3–2s — **zero token cost while idle**. No server, no network, no API keys. Tested on two independent Windows machines (including reboot recovery).
+
+> 关键词：多智能体协作 / 跨会话通信 / 跨对话留言 / agent 编排 / 免轮询唤醒 /
+> multi-agent collaboration, cross-session messaging, agent coordination, zero-polling wake-up.
 
 ---
 
@@ -94,6 +99,7 @@ logs/                可选：被监控的日志目录
 | [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | 常见故障与判断方法 |
 | [docs/VERIFY.md](docs/VERIFY.md) | 换台机器验证（10 分钟清单） |
 | [docs/CASE-ranking-pipeline.md](docs/CASE-ranking-pipeline.md) | 真实案例：三分支跑内容流水线 |
+| [docs/DISCOVERY.md](docs/DISCOVERY.md) | 发布与推广清单（仓库元信息、话题、文案） |
 
 ---
 
